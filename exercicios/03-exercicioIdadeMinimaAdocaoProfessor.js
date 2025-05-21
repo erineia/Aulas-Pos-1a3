@@ -13,13 +13,19 @@ console.log("Pode ser Adotado? " + adocao)
 console.log("Pode ser Adotado v2: " + adocaoV2)
 
 function verificarSePodeSerAdotado(idade, porte){
-const adocao = idade >= idadeMinima ? 'Sim' : porte === 'P' ? 'Sim' : 'Não'
+//const adocao = idade >= idadeMinima ? 'Sim' : porte === 'P' ? 'Sim' : 'Não'
+const idadeMinima = 1
+const adocaoV2 = idadeMinima == idade && porte === 'M'
 
-console.log("Testes: " + adocao)
+console.log("Teste: "+ adocaoV2)
 
 }
 //Testar
+//verificarSePodeSerAdotado(1,'M')
+//verificarSePodeSerAdotado(2,'M')
+//verificarSePodeSerAdotado(2,'P')
 verificarSePodeSerAdotado(1,'M')
-verificarSePodeSerAdotado(2,'M')
-verificarSePodeSerAdotado(2,'P')
-verificarSePodeSerAdotado(1,'P')
+
+console.log("-------------------------------------------")
+
+//console.log(adocaoV2)

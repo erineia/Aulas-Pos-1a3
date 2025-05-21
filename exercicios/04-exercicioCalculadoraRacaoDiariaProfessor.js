@@ -1,8 +1,8 @@
-const nome = "Mel";
-const peso = 10
-const estoque = 5000
+const nome = "Pitoco";
+const peso = 14.5
+const estoque = 1
 
-const gramasPorDia = peso * 30
+const gramasPorDia = peso * 30 * 10
 const duracaoEstoque = estoque / gramasPorDia
 
 console.log(`Nome do dog: ${nome}`);
