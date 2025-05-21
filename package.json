@@ -1,0 +1,26 @@
+{
+  "name": "pgats-programacao",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/erineia/Aulas_Pos_AutomacaoTestes-1a6.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/erineia/Aulas_Pos_AutomacaoTestes-1a6/issues"
+  },
+  "homepage": "https://github.com/erineia/Aulas_Pos_AutomacaoTestes-1a6#readme",
+  "devDependencies": {
+    "eslint": "^9.27.0",
+    "mocha": "^11.4.0",
+    "prettier": "^3.5.3"
+  }
+}

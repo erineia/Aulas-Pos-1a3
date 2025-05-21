@@ -22,8 +22,7 @@
  let mensagem
 
      if(tempo < 15){
-        mensagem = `Atividade rápida`
-    }else if(tempo < 30){
+        mensagem = `Atividade rápida`}else if(tempo < 30){
         mensagem = `Tempo ideal`
     }else if(tempo > 30){
        mensagem = `Hora da diversão`
