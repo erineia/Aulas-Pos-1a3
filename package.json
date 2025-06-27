@@ -5,7 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "e2e": "npx mocha testes/trabalho-final.js"
   },
   "repository": {
     "type": "git",
@@ -23,4 +23,5 @@
     "mocha": "^11.4.0",
     "prettier": "^3.5.3"
   }
+
 }
