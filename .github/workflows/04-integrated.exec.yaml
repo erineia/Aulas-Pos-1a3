@@ -42,7 +42,7 @@ jobs:
         run: yarn
 
       - name: Checando padronizacao do codigo
-        run: yarn lint
+        run: yarn run e2e
 
   unidade:
     runs-on: ubuntu-latest

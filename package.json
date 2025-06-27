@@ -6,7 +6,8 @@
   "type": "module",
   "scripts": {
     "e2e": "npx mocha testes/trabalho-final.js",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "test": "echo 'Use yarn e2e para rodar os testes corretamente'"
   },
   "repository": {
     "type": "git",
