@@ -5,7 +5,8 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "e2e": "npx mocha testes/trabalho-final.js"
+    "e2e": "npx mocha testes/trabalho-final.js",
+    "lint": "eslint ."
   },
   "repository": {
     "type": "git",
