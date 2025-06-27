@@ -34,10 +34,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+
       - name: Instalando Yarn
         run: npm install -g yarn
+
       - name: Instalando dependencias
         run: yarn
+
       - name: Checando padronizacao do codigo
         run: yarn lint
 
@@ -46,10 +49,13 @@ jobs:
     needs: [inspecao]
     steps:
       - uses: actions/checkout@v4
+
       - name: Instalando Yarn
         run: npm install -g yarn
+
       - name: Instalando dependências
         run: yarn
+
       - name: Executando testes de unidade
         run: yarn run e2e
 
@@ -58,13 +64,17 @@ jobs:
     needs: [unidade]
     steps:
       - uses: actions/checkout@v4
+
       - uses: actions/setup-node@v4
         with:
-          node-version: 22.x
+          node-version: 20
+
       - name: Instalando Yarn
         run: npm install -g yarn
+
       - name: Instalando as dependências
         run: yarn
+
       - name: Executando Testes E2E
         run: yarn run e2e
 
